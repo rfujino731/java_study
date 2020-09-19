@@ -7,7 +7,7 @@ class Staff{
 	String email;
 	
 	public void sayhello() {
-		System.out.println("Hello");
+		System.out.println("Hello" + this.name);
 	}
 }
 public class Staffinfo {
